@@ -1,0 +1,135 @@
+#wrapper{
+    background-color: rgb(94, 12, 94);
+    width: 970px;
+    /* height: 1280px; */
+    margin: 0px auto;
+    padding: 0px;
+}
+#bookends{
+    background-color: darkblue;
+    display: block;
+    width: 100%;
+}
+#content{
+    background-color: oldlace;
+    display: block;
+    width: 100%;
+}
+.logo{
+    width: 78%;
+    padding: 10px;
+    margin: 10px 0px 10px 10px;
+    display: inline-block;
+}
+.logo img{
+    width: 390px;
+}
+.txtsz{
+    display: inline-block;
+    vertical-align: top;
+}
+.txtsz p{
+    color: white;
+    display: inline;
+}
+.txtsz .special{
+    color: yellow;
+    text-decoration: underline;
+}
+.searchbox{
+    background-color: rgb(53, 48, 48);
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    left: 970px;
+    bottom: 10px;
+    border-radius: 20px;
+}
+.searchbox form{
+    display: inline-block;
+    width: 220px;
+    margin: 15px;
+    vertical-align: middle;
+}
+.button{
+    background-color: cornflowerblue;
+}
+.nav{
+    background-color: rgb(74, 74, 218);
+    display:block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 64px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.nav li{
+    display: inline;
+    margin: 12px;
+    color: white;
+    font-size: 24pt;
+}
+.headnav{
+    margin: 0px;
+}
+.sidebar{
+    /* background-color: yellow; */
+    width: 250px;
+    height: 436px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 64px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.sidenav{
+    color: white;
+    font-size: 20pt;
+    text-decoration: underline;
+    text-align: center;
+}
+.info{
+    /* background-color: lightgreen; */
+    width: 520px;
+    height: 120px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+}
+.quote{
+    /* background-color: lightpink; */
+    display: inline-block;
+    width: 400px;
+    height: 286px;
+    position: absolute;
+    top: 369px;
+    right: 10px;
+    left: 705px;
+    bottom: 10px;
+    font-size: 16pt;
+    text-align: center;
+    color: gold;
+    font-style: italic;
+}
+.author{
+    color: white;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    display: inline-block;
+}
